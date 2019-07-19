@@ -44,15 +44,6 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/hero/index.md"
-        label: "Hero"
-        name: "hero"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "hero-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Link, name: link, widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
